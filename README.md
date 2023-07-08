@@ -29,6 +29,10 @@
 
 This section refers to the following [link](https://enfycius.github.io/_enfycius/docs/C++/intro).
 
+```bash
+g++ -std=c++17 -o target_name file_name.extension_name
+```
+
 ## :warning: License
 
 This repository's projects are free and open-source software licensed under the [GPL-3.0](https://github.com/enfycius/cpp/blob/master/LICENSE).
