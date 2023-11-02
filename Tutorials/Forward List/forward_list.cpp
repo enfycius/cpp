@@ -12,6 +12,8 @@ int main() {
     forward_list<int> flist2;
     forward_list<int> flist3;
 
+    forward_list<int> flist_emplace1;
+
     flist1.assign({1, 2, 3});
     flist2.assign(5, 10);
     flist3.assign(flist1.begin(), flist1.end());
@@ -30,6 +32,12 @@ int main() {
         cout << c << " ";
 
     cout << endl;
+
+    flist_emplace1.emplace_front(1);
+    flist_emplace1.emplace_front(100);
+
+    for (int& a : flist_emplace1)
+        cout << a << " ";
 
     return 0;
 }
